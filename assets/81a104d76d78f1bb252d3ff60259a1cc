@@ -1,0 +1,113 @@
+{
+  "custom": "定制 {{COLLECTION}}",
+  "BusinessManagement": "商家管理中心",
+  "PledgecastingOrders": "质押、铸造、订单管理",
+  "UserManagement": "用户管理中心",
+  "TakeOrders": "接单",
+  "RecentlyAdded": "最近上架",
+  "region": "区域",
+  "tips": "提示",
+  "AreYouSureYouWantToTakeCustomOrders": "您确定要接受定制订单吗？",
+  "ReceiveOrdersSuccessfullyPleaseProcessThemPromptly.": "收到订单成功，请及时处理。",
+  "chooseTitle": "请选择排列顺序",
+  "Delivery": "交付",
+  "Management": "管理中心",
+  "ViewDetails": "查看详情",
+  "AuthorisedAddress": "授权地址",
+  "PledgedSurplus": "{{token}} 质押剩余",
+  "Remaining": "{{token}} 剩余",
+  "DetermineCasting": "确定铸造",
+  "HandlingFee": "手续费",
+  "CannotBeLessThan": "{{field}} 不能小于 {{value}}",
+  "CustomApplication":"定制申请",
+  "MerchantManagement": {
+    "CastingOrders": "铸造订单",
+    "CashWithdrawalOrders": "取现订单",
+    "Pledge": "质押",
+    "CastingQrCode": "铸造二维码",
+    "CashOutQrCode": "取现二维码",
+    "QrCodeCasting": "二维码铸造",
+    "QrCodeCashWithdrawal": "二维码取现",
+    "ScanCodeToApplyForCasting": "扫二维码申请铸造",
+    "CashOutWithACode": "扫二维码申请取现",
+    "SaveCastingCode": "保存铸造二维码",
+    "SaveCashCode": "保存提现二维码"
+  },
+  "CastingOrders": {
+    "CastingOrders": "铸造订单",
+    "StatusPending": "待接单",
+    "StatusCompleted": "已完成",
+    "StatusClosed": "已关闭",
+    "ToCloseTip": "确定关闭该铸造订单吗?",
+    "DetermineCasting": "确定铸造",
+    "OrderNo": "订单号",
+    "Address": "地址",
+    "Value": "价值",
+    "OrderTime": "订单时间",
+    "Time": "时间",
+    "CastingTime": "铸造时间",
+    "Token": "Token"
+  },
+  "CashWithdrawalOrders": {
+    "CashWithdrawalOrders": "取现订单",
+    "StatusTBD": "待交付",
+    "StatusPending": "待接单",
+    "StatusCompleted": "已完成",
+    "StatusClosed": "已关闭",
+    "ToCloseTip": "确定关闭该取现订单吗?",
+    "ToPayTip": "是否确认收到?",
+    "DetermineCasting": "确定铸造",
+    "OrderNo": "订单号",
+    "Address": "地址",
+    "Value": "价值",
+    "OrderTime": "订单时间",
+    "ConfirmationTime": "确认时间",
+    "ConfirmReceipt": "确认收款",
+    "Token": "Token"
+  },
+  "MyCustom": {
+    "MyCustom": "我的定制",
+    "StatusPending": "待接单",
+    "StatusTBD": "待交付",
+    "StatusCompleted": "已完成",
+    "StatusClosed": "已关闭",
+    "OrderNo": "订单号",
+    "Token": "Token",
+    "Value": "价值",
+    "Region": "区域",
+    "OrderTime": "订单时间",
+    "ViewDetails": "查看详情"
+  },
+  "CustomOrder": {
+    "MyCustom": "定制订单",
+    "StatusPending": "待接单",
+    "StatusCompleted": "已完成",
+    "StatusClosed": "已关闭",
+    "OrderNo": "订单号",
+    "Token": "Token",
+    "Value": "价值",
+    "Region": "区域",
+    "OrderTime": "订单时间",
+    "ViewDetails": "查看详情"
+  },
+  "UserManagementInfo":{
+    "CollectionCashWithdrawal":"{{COLLECTION}}取现申请",
+    "foundryAddress":"代工厂地址",
+    "SelectCollection":"选择 {{COLLECTION}}",
+    "PleaseSelectTheCollectionForDelivery":"请选择 {{COLLECTION}} 交付",
+    "CollectionCastingApplication":"{{COLLECTION}} 铸造申请",
+    "WhetherToAcknowledgeReceipt":"是否确认收货",
+    "CashWithDrawal":"取现",
+    "receiveAddress":"接受地址"
+  },
+  "placeHolder":{
+    "token":"请输入令牌",
+    "COLLECTION":"请选择{{COLLECTION}}"
+  },
+  "btn":{
+    "ok":"好的"
+  },
+  "toast":{
+    "pleaseSelectCollection":"请选择{{COLLECTION}}"
+  }
+}
