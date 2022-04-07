@@ -1,9 +1,9 @@
 {
-  "version": "1.0.1",
+  "version": 0,
   "bundler": "metro",
   "fileMetadata": {
     "android": {
-      "bundle": "bundles/android-bea7b20f96aeef581687671bb4a4aab3.js",
+      "bundle": "bundles/android-d86e64a83aaa164355236a592723fce3.js",
       "assets": [
         {
           "path": "assets/3588a24f287b42a6204adff457fc49f9",
@@ -142,7 +142,7 @@
           "ext": "json"
         },
         {
-          "path": "assets/471187499f1edbc01ae29878c2210e6b",
+          "path": "assets/3cda0b4d26178c7359a7318e3549bbdd",
           "ext": "json"
         },
         {
@@ -194,11 +194,11 @@
           "ext": "json"
         },
         {
-          "path": "assets/6be86fcbe38e7d09ee949848be70d3c7",
+          "path": "assets/5ab6d490a5d872bf12e1cebec49f6fa7",
           "ext": "json"
         },
         {
-          "path": "assets/431e8abffae42534ef28afe6a619855a",
+          "path": "assets/cdfbc1a7dc823e7a290292c76a595390",
           "ext": "json"
         },
         {
@@ -206,15 +206,15 @@
           "ext": "json"
         },
         {
-          "path": "assets/b776cec9efe0e69f2ae844f582435cdb",
+          "path": "assets/b5150f5268769c4b14f2b5553dd25bcc",
           "ext": "json"
         },
         {
-          "path": "assets/388c2a554c7ba93fd9729e53c907a0d8",
+          "path": "assets/cf12fb42ea13a02f42d9af828fc3808d",
           "ext": "json"
         },
         {
-          "path": "assets/0b49f8f79accd78d83ec04e3a3ee2be3",
+          "path": "assets/d0b4cd24a76389cf786c9e2b5fb980cf",
           "ext": "json"
         },
         {
@@ -222,11 +222,15 @@
           "ext": "json"
         },
         {
-          "path": "assets/41142e8149f32867e638879120bc103f",
+          "path": "assets/a84156904fcf81faaf1b8c93197a099f",
           "ext": "json"
         },
         {
-          "path": "assets/6bc68cfa7031cf3fd110fa9388242bdc",
+          "path": "assets/79a871f7267d623daf079b15204f9585",
+          "ext": "json"
+        },
+        {
+          "path": "assets/ef31a79bcda75d67ffbdb1f9a8059ffc",
           "ext": "json"
         },
         {
@@ -238,43 +242,51 @@
           "ext": "json"
         },
         {
-          "path": "assets/90e0179143e06acc95a5fe2990dd14f4",
+          "path": "assets/0f5b337d16f079dbb8d804e0eb672ca1",
           "ext": "json"
         },
         {
-          "path": "assets/8a69acf4fa371a3b8ffb13732a915c22",
+          "path": "assets/78c0e1fb3ee91aea67e75f722c1adee5",
           "ext": "json"
         },
         {
-          "path": "assets/437a56fac598c3ef0c29db8d444d2df7",
+          "path": "assets/53719250fd8e2bceb78d7eb7f9ddd104",
           "ext": "json"
         },
         {
-          "path": "assets/00b6e8e0aaff67d3b0fc26b7052d7228",
+          "path": "assets/4b6224a8ec95028d2a6d13d5e8bbc4a8",
           "ext": "json"
         },
         {
-          "path": "assets/3f79330ee885b67432a00bbef5b0de69",
+          "path": "assets/540177eac5e7513927b96ae5bbf3f457",
           "ext": "json"
         },
         {
-          "path": "assets/03c3ebfa8be82dc301d8aeff403fd44b",
+          "path": "assets/da2d3c2218024425265c7b59199336ae",
           "ext": "json"
         },
         {
-          "path": "assets/cceed3e50c816bebb1cc1069ed57f9e3",
+          "path": "assets/76ab40c18e8a1f3fc435fca65adcac23",
           "ext": "json"
         },
         {
-          "path": "assets/a0dcc7ebb98d9208d2bade75970a21b3",
+          "path": "assets/5ab2c628fcefd01e18344dde1b0e6922",
           "ext": "json"
         },
         {
-          "path": "assets/3ecbe30360ee65af3adc47fca8765b1b",
+          "path": "assets/90735a91fbd8299bb12920063a8d9382",
           "ext": "json"
         },
         {
-          "path": "assets/5f0a968bbb3b7d90d862c734e3e067f5",
+          "path": "assets/c33a456681d54b4a673f1e5dd3912b76",
+          "ext": "json"
+        },
+        {
+          "path": "assets/f61746ac147739449d09ce36354b9a18",
+          "ext": "json"
+        },
+        {
+          "path": "assets/f9c66976081dda4b39abeb82899e21ca",
           "ext": "json"
         },
         {
@@ -282,7 +294,15 @@
           "ext": "json"
         },
         {
-          "path": "assets/fe05bf12b1025f30e9241e8606f08e8e",
+          "path": "assets/8925576fc52f8b4794ebf2155c1bf39d",
+          "ext": "json"
+        },
+        {
+          "path": "assets/f92f3b7c0ffc784ed0a2540277f07f20",
+          "ext": "json"
+        },
+        {
+          "path": "assets/24d3947c9f7463f9c2569c3cbd09ea03",
           "ext": "json"
         },
         {
@@ -888,7 +908,7 @@
       ]
     },
     "ios": {
-      "bundle": "bundles/ios-f1d0c04beb224a665bbb4b01347f474b.js",
+      "bundle": "bundles/ios-6f1edbba64963076c07d4a31f2b25002.js",
       "assets": [
         {
           "path": "assets/3588a24f287b42a6204adff457fc49f9",
@@ -1027,7 +1047,7 @@
           "ext": "json"
         },
         {
-          "path": "assets/471187499f1edbc01ae29878c2210e6b",
+          "path": "assets/3cda0b4d26178c7359a7318e3549bbdd",
           "ext": "json"
         },
         {
@@ -1079,11 +1099,11 @@
           "ext": "json"
         },
         {
-          "path": "assets/6be86fcbe38e7d09ee949848be70d3c7",
+          "path": "assets/5ab6d490a5d872bf12e1cebec49f6fa7",
           "ext": "json"
         },
         {
-          "path": "assets/431e8abffae42534ef28afe6a619855a",
+          "path": "assets/cdfbc1a7dc823e7a290292c76a595390",
           "ext": "json"
         },
         {
@@ -1091,15 +1111,15 @@
           "ext": "json"
         },
         {
-          "path": "assets/b776cec9efe0e69f2ae844f582435cdb",
+          "path": "assets/b5150f5268769c4b14f2b5553dd25bcc",
           "ext": "json"
         },
         {
-          "path": "assets/388c2a554c7ba93fd9729e53c907a0d8",
+          "path": "assets/cf12fb42ea13a02f42d9af828fc3808d",
           "ext": "json"
         },
         {
-          "path": "assets/0b49f8f79accd78d83ec04e3a3ee2be3",
+          "path": "assets/d0b4cd24a76389cf786c9e2b5fb980cf",
           "ext": "json"
         },
         {
@@ -1107,11 +1127,15 @@
           "ext": "json"
         },
         {
-          "path": "assets/41142e8149f32867e638879120bc103f",
+          "path": "assets/a84156904fcf81faaf1b8c93197a099f",
           "ext": "json"
         },
         {
-          "path": "assets/6bc68cfa7031cf3fd110fa9388242bdc",
+          "path": "assets/79a871f7267d623daf079b15204f9585",
+          "ext": "json"
+        },
+        {
+          "path": "assets/ef31a79bcda75d67ffbdb1f9a8059ffc",
           "ext": "json"
         },
         {
@@ -1123,43 +1147,51 @@
           "ext": "json"
         },
         {
-          "path": "assets/90e0179143e06acc95a5fe2990dd14f4",
+          "path": "assets/0f5b337d16f079dbb8d804e0eb672ca1",
           "ext": "json"
         },
         {
-          "path": "assets/8a69acf4fa371a3b8ffb13732a915c22",
+          "path": "assets/78c0e1fb3ee91aea67e75f722c1adee5",
           "ext": "json"
         },
         {
-          "path": "assets/437a56fac598c3ef0c29db8d444d2df7",
+          "path": "assets/53719250fd8e2bceb78d7eb7f9ddd104",
           "ext": "json"
         },
         {
-          "path": "assets/00b6e8e0aaff67d3b0fc26b7052d7228",
+          "path": "assets/4b6224a8ec95028d2a6d13d5e8bbc4a8",
           "ext": "json"
         },
         {
-          "path": "assets/3f79330ee885b67432a00bbef5b0de69",
+          "path": "assets/540177eac5e7513927b96ae5bbf3f457",
           "ext": "json"
         },
         {
-          "path": "assets/03c3ebfa8be82dc301d8aeff403fd44b",
+          "path": "assets/da2d3c2218024425265c7b59199336ae",
           "ext": "json"
         },
         {
-          "path": "assets/cceed3e50c816bebb1cc1069ed57f9e3",
+          "path": "assets/76ab40c18e8a1f3fc435fca65adcac23",
           "ext": "json"
         },
         {
-          "path": "assets/a0dcc7ebb98d9208d2bade75970a21b3",
+          "path": "assets/5ab2c628fcefd01e18344dde1b0e6922",
           "ext": "json"
         },
         {
-          "path": "assets/3ecbe30360ee65af3adc47fca8765b1b",
+          "path": "assets/90735a91fbd8299bb12920063a8d9382",
           "ext": "json"
         },
         {
-          "path": "assets/5f0a968bbb3b7d90d862c734e3e067f5",
+          "path": "assets/c33a456681d54b4a673f1e5dd3912b76",
+          "ext": "json"
+        },
+        {
+          "path": "assets/f61746ac147739449d09ce36354b9a18",
+          "ext": "json"
+        },
+        {
+          "path": "assets/f9c66976081dda4b39abeb82899e21ca",
           "ext": "json"
         },
         {
@@ -1167,7 +1199,15 @@
           "ext": "json"
         },
         {
-          "path": "assets/fe05bf12b1025f30e9241e8606f08e8e",
+          "path": "assets/8925576fc52f8b4794ebf2155c1bf39d",
+          "ext": "json"
+        },
+        {
+          "path": "assets/f92f3b7c0ffc784ed0a2540277f07f20",
+          "ext": "json"
+        },
+        {
+          "path": "assets/24d3947c9f7463f9c2569c3cbd09ea03",
           "ext": "json"
         },
         {
