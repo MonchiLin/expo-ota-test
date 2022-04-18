@@ -1,0 +1,124 @@
+{
+  "custom": "Настроить {{COLLECTION}}",
+  "BusinessManagement": "business management center",
+  "PledgecastingOrders": "Pledge, casting, order management",
+  "UserManagement": "user management center",
+  "TakeOrders": "take orders",
+  "RecentlyAdded": "Recently put on the shelves",
+  "region": "region",
+  "tips": "tips",
+  "AreYouSureYouWantToTakeCustomOrders": "Вы действительно хотите принять заказ на заказ？",
+  "ReceiveOrdersSuccessfullyPleaseProcessThemPromptly": "Получите заказ успешно, пожалуйста, обработайте его вовремя.",
+  "chooseTitle": "Выберите порядок расположения",
+  "Delivery": "Доставка",
+  "Management": "Центр управления",
+  "ViewDetails": "Ознакомьтесь с подробностями",
+  "AuthorisedAddress": "AuthorisedAddress",
+  "PledgedSurplus": "{{token}} залог остатка",
+  "Remaining": "{{token}} Остальная часть",
+  "DetermineCasting": "Определить литье",
+  "HandlingFee": "Плата за обработку",
+  "CannotBeLessThan": "{{field}} не может быть меньше {{value}}",
+  "CustomApplication": "Заявка на занятие должности",
+  "MerchantManagement": {
+    "CastingOrders": "литейный заказ",
+    "CashWithdrawalOrders": "получить заказ",
+    "Pledge": "залог",
+    "CastingQrCode": "литейный двухмерный код",
+    "CashOutQrCode": "получение текущего двухмерного кода",
+    "QrCodeCasting": "двухмерное литье кода",
+    "QrCodeCashWithdrawal": "получение двухмерного кода",
+    "ScanCodeToApplyForCasting": "заявка на отливку двухмерного кода",
+    "CashOutWithACode": "заявка на получение двухмерного кода",
+    "SaveCastingCode": "сохранить литейный двухмерный код",
+    "SaveCashCode": "сохранить выделенный двухмерный код"
+  },
+  "CastingOrders": {
+    "CastingOrders": "литейный заказ",
+    "StatusPending": "список ожидания",
+    "StatusCompleted": "закончено",
+    "StatusClosed": "уже закрыто",
+    "ToCloseTip": "Ты уверен, что отключил заказ?",
+    "DetermineCasting": "определение литья",
+    "OrderNo": "номер заказа",
+    "Address": "адрес",
+    "Value": "значение",
+    "OrderTime": "время заказа",
+    "Time": "время",
+    "CastingTime": "литейное время",
+    "Token": "комиссионные деньги"
+  },
+  "OfflineCastingOrders": {
+    "StatusPending": "ожидающий обработки"
+  },
+  "CashWithdrawalOrders": {
+    "CashWithdrawalOrders": "получить заказ",
+    "StatusTBD": "ждущий подтверждения",
+    "StatusPending": "список ожидания",
+    "StatusCompleted": "закончено",
+    "StatusClosed": "уже закрыто",
+    "ToCloseTip": "Вы уверены, что отключите заказ?",
+    "ToPayTip": "после платежа просим абонента подтвердить получение",
+    "DetermineCasting": "определение литья",
+    "OrderNo": "номер заказа",
+    "Address": "адрес",
+    "Value": "значение",
+    "OrderTime": "время заказа",
+    "ConfirmationTime": "время подтверждения",
+    "ConfirmReceipt": "подтверждать получение",
+    "Token": "комиссионные деньги"
+  },
+  "CashWithdrawalOrdersForMerchant": {
+    "StatusPending": "ожидающий обработки"
+  },
+  "MyCustom": {
+    "ToCloseTip": "Уверен, что заказ закрыт?",
+    "MyCustom": "мой заказ",
+    "StatusPending": "список ожидания",
+    "StatusTBD": "в ожидании сдачи",
+    "StatusCompleted": "закончено",
+    "StatusClosed": "уже закрыто",
+    "OrderNo": "номер заказа",
+    "Token": "комиссионные деньги",
+    "Value": "значение",
+    "Region": "область",
+    "OrderTime": "время заказа",
+    "ViewDetails": "смотреть подробности"
+  },
+  "CustomOrder": {
+    "ToCancelTip": "отменить заказ?",
+    "MyCustom": "заказ на заказ",
+    "StatusPending": "в ожидании сдачи",
+    "StatusCompleted": "закончено",
+    "StatusClosed": "уже закрыто",
+    "OrderNo": "номер заказа",
+    "Token": "комиссионные деньги",
+    "Value": "значение",
+    "Region": "область",
+    "OrderTime": "время заказа",
+    "ViewDetails": "смотреть подробности"
+  },
+  "UserManagementInfo": {
+    "CollectionCashWithdrawal": "{COLLECTION} получение текущей заявки",
+    "foundryAddress": "адрес завода",
+    "SelectCollection": "выбор {COLLECTION}",
+    "PleaseSelectTheCollectionForDelivery": "Выберите поставку {COLLECTION}",
+    "CollectionCastingApplication": "{COLLECTION} заявка на литье",
+    "WhetherToAcknowledgeReceipt": "подтверждение получения",
+    "CashWithDrawal": "получить",
+    "receiveAddress": "приемный адрес"
+  },
+  "placeHolder": {
+    "token": "Введите знак",
+    "COLLECTION": "Выберите {COLLECTION}",
+    "pleaseSelectArea": "Выберите область",
+    "pleaseEnterFoundryAddress": "Введите адрес завода",
+    "pleaseSelectDeliverdCollection": "Выберите требуемую поставку {COLLECTION}"
+  },
+  "btn": {
+    "ok": "Хорошо."
+  },
+  "toast": {
+    "pleaseSelectCollection": "Выберите {COLLECTION}"
+  }
+}
