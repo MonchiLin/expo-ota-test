@@ -1,14 +1,19 @@
 {
-  "private": true,
+  "name": "ota-server-new",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "module": "es6",
   "scripts": {
-    "dev": "nuxi dev",
-    "build": "nuxi build",
-    "start": "node .output/server/index.mjs"
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3",
+    "structured-headers": "^0.4.1",
+    "form-data": "^4.0.0",
+    "mime": "^2.5.2"
   },
   "devDependencies": {
-    "form-data": "^4.0.0",
-    "mime": "^2.5.2",
-    "nuxt3": "latest",
-    "structured-headers": "^0.4.1"
+    "@types/express": "^4.17.13"
   }
 }

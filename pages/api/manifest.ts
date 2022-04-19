@@ -11,6 +11,7 @@ import {
 } from '../../common/helpers';
 
 export default async function manifestEndpoint(req, res) {
+  console.log("获取清单")
   const platform = req.headers['expo-platform'] ?? req.query['platform'];
   const runtimeVersion = req.headers['expo-runtime-version'] ?? req.query['runtime-version'];
   const updateBundlePath = `updates/${runtimeVersion}`;

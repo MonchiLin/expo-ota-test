@@ -20,7 +20,7 @@
     "cli.js",
     "flow",
     "flow-typed",
-    "index.js",
+    "app.js",
     "interface.js",
     "jest-preset.js",
     "jest",

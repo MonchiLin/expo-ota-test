@@ -17,7 +17,7 @@
     "syntax",
     "validation"
   ],
-  "main": "lib/index.js",
+  "main": "lib/app.js",
   "unpkg": "dist/csstree.min.js",
   "jsdelivr": "dist/csstree.min.js",
   "scripts": {

@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "eslint lib test",
     "lint:fix": "npm run lint -- --fix",
-    "unit": "istanbul test _mocha --reporter=spec test/index.js",
+    "unit": "istanbul test _mocha --reporter=spec test/app.js",
     "test": "npm run lint && npm run unit",
     "version": "grunt dist && git add dist/"
   },

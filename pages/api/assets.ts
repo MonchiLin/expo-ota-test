@@ -4,7 +4,16 @@ import path from 'path';
 
 import { getMetadataSync } from '../../common/helpers';
 
+export const config = {
+  api: {
+    bodyParser: {
+      sizeLimit: '100mb' // Set desired value here
+    }
+  }
+}
+
 export default function assetsEndpoint(req, res) {
+  console.log("获取资源文件")
   const { asset: assetName, runtimeVersion, platform } = req.query;
 
   if (!assetName) {

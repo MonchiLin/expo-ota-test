@@ -17,7 +17,17 @@
     "next": "12",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "structured-headers": "^0.4.1"
+    "structured-headers": "^0.4.1",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "gzip-cli": "^1.2.0",
+    "imagemin": "^8.0.1",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "jsesc": "^3.0.2",
+    "morgan": "~1.9.1",
+    "rimraf": "^3.0.2"
   },
   "devDependencies": {
     "@expo/multipart-body-parser": "^1.1.0",

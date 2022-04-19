@@ -49,7 +49,7 @@ export function getAssetMetadataSync({
   platform: string;
 }) {
   const assetFilePath = `${updateBundlePath}/${filePath}`;
-  const asset = fs.readFileSync(path.resolve(assetFilePath), null);
+  const asset = fs.readFileSync(path.resolve("public/" + assetFilePath), null);
   const assetHash = createHash(asset, 'sha256');
   const keyHash = createHash(asset, 'md5');
   const keyExtensionSuffix = isLaunchAsset ? 'bundle' : ext;
@@ -60,13 +60,13 @@ export function getAssetMetadataSync({
     key: keyHash,
     fileExtension: `.${keyExtensionSuffix}`,
     contentType,
-    url: `${process.env.HOSTNAME}/api/assets?asset=${assetFilePath}&runtimeVersion=${runtimeVersion}&platform=${platform}`,
+    url: `http://10.0.2.2:3000/api/assets?asset=${assetFilePath}&runtimeVersion=${runtimeVersion}&platform=${platform}`,
   };
 }
 
 export function getMetadataSync({ updateBundlePath, runtimeVersion }) {
   try {
-    const metadataPath = `${updateBundlePath}/metadata.json`;
+    const metadataPath = `public/${updateBundlePath}/metadata.json`;
     const updateMetadataBuffer = fs.readFileSync(path.resolve(metadataPath), null);
     const metadataJson = JSON.parse(updateMetadataBuffer.toString('utf-8'));
     const metadataStat = fs.statSync(metadataPath);
