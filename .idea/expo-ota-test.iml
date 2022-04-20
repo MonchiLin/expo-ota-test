@@ -3,7 +3,8 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/ota-server-new/public/updates/exposdk" />
+      <excludeFolder url="file://$MODULE_DIR$/public/updates/exposdk" />
+      <excludeFolder url="file://$MODULE_DIR$/public/updates/bitcooo-production" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
