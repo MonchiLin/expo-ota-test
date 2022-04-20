@@ -14,4 +14,4 @@ app.get('/api/assets', assetsEndpoint)
 
 
 app.use(express.static('public'))
-app.listen(3000)
+app.listen(8000)

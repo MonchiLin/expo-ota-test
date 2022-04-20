@@ -9,4 +9,4 @@ RUN npm install
 COPY . .
 
 EXPOSE 3000
-CMD [ "pm2", "app.js" ]
+CMD [ "npm", "run", "start" ]
