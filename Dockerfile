@@ -4,11 +4,12 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 
+RUN npm config set registry http://registry.npm.taobao.org/
+
 RUN npm install
+
 
 COPY . .
 
 EXPOSE 3000
-#CMD [ "npm", "run", "start" ]
-
-CMD ["node", "app.js"]
+CMD [ "npm", "run", "start" ]
