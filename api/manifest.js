@@ -10,8 +10,8 @@ const {
   getPrivateKeyAsync,
 } = require('../common/helpers');
 
-module.exports = async function manifestEndpoint(req, res) {
-  console.log("获取清单", req.url)
+module.exports = async function manifestEndpoint (req, res) {
+  console.log('获取清单', req.url);
   const platform = req.headers['expo-platform'] ?? req.query['platform'];
   const runtimeVersion = req.headers['expo-runtime-version'] ?? req.query['runtime-version'];
   const updateBundlePath = `updates/${runtimeVersion}`;
@@ -103,4 +103,4 @@ module.exports = async function manifestEndpoint(req, res) {
     res.statusCode = 404;
     res.json({ error });
   }
-}
+};
