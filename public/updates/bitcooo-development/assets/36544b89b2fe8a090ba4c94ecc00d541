@@ -1,0 +1,125 @@
+{
+  "custom": "Customize {{COLLECTION}}",
+  "BusinessManagement": "Merchant Management",
+  "PledgecastingOrders": "Pledging, Casting, Order Management",
+  "UserManagement": "User Management",
+  "TakeOrders": "Take Orders",
+  "RecentlyAdded": "Recently Added",
+  "region": "Region",
+  "tips": "Tips",
+  "AreYouSureYouWantToTakeCustomOrders": "Are you sure you want to accept custom orders?",
+  "ReceiveOrdersSuccessfullyPleaseProcessThemPromptly": "ReceiveOrdersSuccessfullyPleaseProcessThemPromptly.",
+  "chooseTitle": "Please select the order of arrangement",
+  "Delivery": "Delivery",
+  "Management": "Management Centre",
+  "ViewDetails": "View Details",
+  "AuthorisedAddress": "Authorised address",
+  "PledgedSurplus": "{{token}} Pledge Remaining",
+  "Remaining": "{{token}} Remaining",
+  "DetermineCasting": "DetermineCasting",
+  "HandlingFee": "HandlingFee",
+  "CannotBeLessThan": "{{field}} cannot be less than {{value}}",
+  "CustomApplication": "Custom Application",
+  "MerchantManagement": {
+    "CastingOrders": "Casting Orders",
+    "CashWithdrawalOrders": "Cash Withdrawal Orders",
+    "Pledge": "Pledge",
+    "CastingQrCode": "Casting QR Code",
+    "CashOutQrCode": "CashOut QR Code",
+    "QrCodeCasting": "QR Code Casting",
+    "QrCodeCashWithdrawal": "QR Code Cashing",
+    "ScanCodeToApplyForCasting": "ScanCodeToApplyForCasting",
+    "CashOutWithACode": "ScanCodeToApplyForCasting",
+    "SaveCastingCode": "SaveCastingCode",
+    "SaveCashCode": "Save withdrawal QR code"
+  },
+  "CastingOrders": {
+    "CastingOrders": "Casting Orders",
+    "StatusPending": "Pending Orders",
+    "StatusCompleted": "Completed",
+    "StatusClosed": "Closed",
+    "ToCloseTip": "Sure to close this casting order?",
+    "DetermineCasting": "Determine casting",
+    "OrderNo": "OrderNo",
+    "Address": "Address",
+    "Value": "Value",
+    "OrderTime": "OrderTime",
+    "Time": "Time",
+    "CastingTime": "CastingTime",
+    "Token": "Token"
+  },
+  "OfflineCastingOrders": {
+    "StatusPending": "Pending"
+  },
+  "CashWithdrawalOrders": {
+    "CashWithdrawalOrders": "Cash Withdrawal Orders",
+    "StatusTBD": "Pending Confirmation",
+    "StatusPending": "Pending Orders",
+    "StatusCompleted": "Completed",
+    "StatusClosed": "Closed",
+    "ToCloseTip": "Are you sure you want to close this cash withdrawal order?",
+    "ToPayTip": "Please ask the customer to confirm receipt after payment.",
+    "DetermineCasting": "OK to cast",
+    "OrderNo": "OrderNo",
+    "Address": "Address",
+    "Value": "Value",
+    "OrderTime": "OrderTime",
+    "ConfirmationTime": "Confirmation time",
+    "ConfirmReceipt": "ConfirmationReceipt",
+    "Token": "Token"
+  },
+  "CashWithdrawalOrdersForMerchant": {
+    "StatusPending": "Pending"
+  },
+  "MyCustom": {
+    "ToCloseTip": "Sure to close this custom order?",
+    "MyCustom": "MyCustom",
+    "StatusPending": "Pending Orders",
+    "StatusTBD": "To be delivered",
+    "StatusCompleted": "Completed",
+    "StatusClosed": "Closed",
+    "OrderNo": "OrderNo",
+    "Token": "Token",
+    "Value": "Value",
+    "Region": "Region",
+    "OrderTime": "OrderTime",
+    "ViewDetails": "View Details"
+  },
+  "CustomOrder": {
+    "ToCancelTip": "Sure you want to cancel this custom order?",
+    "MyCustom": "Custom Order",
+    "StatusPending": "Pending Delivery",
+    "StatusCompleted": "Completed",
+    "StatusClosed": "Closed",
+    "OrderNo": "OrderNo",
+    "Token": "Token",
+    "Value": "Value",
+    "Region": "Region",
+    "OrderTime": "OrderTime",
+    "ViewDetails": "View Details"
+  },
+  "UserManagementInfo": {
+    "CollectionCashWithdrawal": "{{COLLECTION}} cash withdrawal request",
+    "foundryAddress": "Foundry address",
+    "SelectCollection": "Select {{COLLECTION}}",
+    "PleaseSelectTheCollectionForDelivery": "Please select {{COLLECTION}} for delivery",
+    "CollectionCastingApplication": "{{COLLECTION}} Casting application",
+    "WhetherToAcknowledgeReceipt": "Whether to acknowledge receipt of goods",
+    "CashWithDrawal": "Cash withdrawal",
+    "receiveAddress": "Receive address"
+  },
+  "placeHolder": {
+    "token": "Please enter a token",
+    "COLLECTION": "Please select {{COLLECTION}}",
+    "pleaseSelectArea": "Please select area",
+    "pleaseEnterFoundryAddress": "Please enter the foundry address",
+    "pleaseSelectDeliverdCollection": "Please select the {{COLLECTION}} that needs to be delivered"
+  },
+  "btn": {
+    "ok": "ok"
+  },
+  "toast": {
+    "pleaseSelectCollection": "Please select {{COLLECTION}}",
+    "InsufficientWalletBalance": "{{token}} balance is insufficient"
+  }
+}

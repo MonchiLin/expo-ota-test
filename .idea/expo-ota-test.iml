@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/public/updates/exposdk" />
       <excludeFolder url="file://$MODULE_DIR$/public/updates/bitcooo-production" />
+      <excludeFolder url="file://$MODULE_DIR$/public/updates/bitcooo-development" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

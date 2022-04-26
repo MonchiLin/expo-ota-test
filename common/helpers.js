@@ -41,6 +41,7 @@ exports.getAssetMetadataSync = function getAssetMetadataSync ({
   isLaunchAsset,
   runtimeVersion,
   platform,
+  host,
 }) {
   const assetFilePath = `${updateBundlePath}/${filePath}`;
   const asset = fs.readFileSync(path.resolve('public/' + assetFilePath), null);
@@ -56,6 +57,7 @@ exports.getAssetMetadataSync = function getAssetMetadataSync ({
     contentType,
     // url: `http://10.0.2.2:3000/api/assets?asset=${assetFilePath}&runtimeVersion=${runtimeVersion}&platform=${platform}`,
     url: `http://expo.weirui0755.com/api/assets?asset=${assetFilePath}&runtimeVersion=${runtimeVersion}&platform=${platform}`,
+    url: `${host}/api/assets?asset=${assetFilePath}&runtimeVersion=${runtimeVersion}&platform=${platform}`,
   };
 };
 
