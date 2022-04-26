@@ -56,7 +56,7 @@ exports.getAssetMetadataSync = function getAssetMetadataSync ({
     fileExtension: `.${keyExtensionSuffix}`,
     contentType,
     // url: `http://10.0.2.2:3000/api/assets?asset=${assetFilePath}&runtimeVersion=${runtimeVersion}&platform=${platform}`,
-    url: `http://expo.weirui0755.com/api/assets?asset=${assetFilePath}&runtimeVersion=${runtimeVersion}&platform=${platform}`,
+    // url: `http://expo.weirui0755.com/api/assets?asset=${assetFilePath}&runtimeVersion=${runtimeVersion}&platform=${platform}`,
     url: `${host}/api/assets?asset=${assetFilePath}&runtimeVersion=${runtimeVersion}&platform=${platform}`,
   };
 };

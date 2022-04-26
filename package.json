@@ -5,8 +5,9 @@
   "license": "MIT",
   "module": "es6",
   "scripts": {
-    "dev": "nodemon app.js",
-    "start": "pm2 start app.js"
+    "dev:localhost": "cross-env SERVER_HOST=http://localhost:3000 nodemon app.js",
+    "dev:production": "cross-env SERVER_HOST=https://expo.bitcooo.com nodemon app.js",
+    "dev:preivew": "cross-env SERVER_HOST=http://expo.weirui0755.com nodemon app.js"
   },
   "dependencies": {
     "express": "^4.17.3",
@@ -14,7 +15,7 @@
     "form-data": "^4.0.0",
     "mime": "^2.5.2",
     "nodemon": "^2.0.15",
-    "pm2": "^5.2.0"
+    "cross-env": "^7.0.3"
   },
   "devDependencies": {
     "@types/express": "^4.17.13"

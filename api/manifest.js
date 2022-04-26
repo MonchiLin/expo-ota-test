@@ -15,7 +15,8 @@ module.exports = async function manifestEndpoint (req, res) {
   const platform = req.headers['expo-platform'] ?? req.query['platform'];
   const runtimeVersion = req.headers['expo-runtime-version'] ?? req.query['runtime-version'];
   const updateBundlePath = `updates/${runtimeVersion}`;
-  const host = req.protocol + '://' + req.get('host');
+  const host = process.env.SERVER_HOST || req.protocol + '://' + req.get('host');
+
   if (req.method !== 'GET') {
     res.statusCode = 405;
     res.json({ error: 'Expected GET.' });
